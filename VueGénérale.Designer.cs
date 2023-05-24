@@ -35,6 +35,7 @@ namespace ProjetAthlétisme
             this.lblPrénom = new System.Windows.Forms.Label();
             this.lblNom = new System.Windows.Forms.Label();
             this.btnEnregistre = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLogin
@@ -89,11 +90,21 @@ namespace ProjetAthlétisme
             this.btnEnregistre.UseVisualStyleBackColor = true;
             this.btnEnregistre.Click += new System.EventHandler(this.btnEnregistre_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(610, 224);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(178, 195);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // VueGénérale
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnEnregistre);
             this.Controls.Add(this.lblNom);
             this.Controls.Add(this.lblPrénom);
@@ -116,5 +127,6 @@ namespace ProjetAthlétisme
         private System.Windows.Forms.Label lblPrénom;
         private System.Windows.Forms.Label lblNom;
         private System.Windows.Forms.Button btnEnregistre;
+        private System.Windows.Forms.Button button1;
     }
 }
